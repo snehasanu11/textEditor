@@ -1,0 +1,49 @@
+
+/*body*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*parent div*/
+.editor-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+}
+
+/*toolbar*/
+.toolbar {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#fontFamily, #fontVariant {
+    margin-right: 10px;
+}
+
+
+/*editor*/
+#editor {
+    padding: 20px;
+    min-height: 300px;
+    font-size: 16px;
+    outline: none;
+}
+textarea{
+    width:60%;
+    height: auto;
+   
+}

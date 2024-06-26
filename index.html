@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor with Google Fonts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <!--toolbar-->
+        <div class="toolbar">
+            <select id="fontFamily"></select>
+            <select id="fontVariant">
+                <option value="normal">Regular</option>
+                <option value="bold">Bold</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+                </select>
+            
+            <div id="main">
+                <label for="italic-slider">Italic</label>
+                <input type="checkbox" id="italic-slider">
+            </div>
+
+         </div>
+
+        <!--editor-->
+        <textarea id="editor" placeholder=" Start typing here...">
+        </textarea>
+
+        <!--button-->
+       <br/> <button id="save">save</button>
+        <p id="status"></p>
+    </div>
+
+    <!--js file-->
+    <script src="script.js"></script>
+</body>
+</html>
